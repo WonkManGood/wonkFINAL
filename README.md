@@ -8,8 +8,8 @@ when i dropped interest in this class and finished it. and im glad to say, i mor
 
 nonetheless, heres my final project! hope you enjoy and give me many A+'s.
 
-    # wonkCIPHER: mimic of randomart for text
-    #### Video Demo:  <URL HERE>
-    #### Description:
+# wonkCIPHER: mimic of randomart for text
+#### Video Demo:  <URL HERE>
+#### Description:
 
-    wonkCIPHER is a clone with functionality strictly to 
+wonkCIPHER is a clone with functionality strictly to 
