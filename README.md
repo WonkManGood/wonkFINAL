@@ -11,5 +11,4 @@ nonetheless, heres my final project! hope you enjoy and give me many A+'s.
 # **wonkCIPHER**: mimic of randomart for text
 #### **Video Demo**:  <URL HERE>
 #### **Description**:
-
 wonkCIPHER is a clone of [randomart](https://github.com/ansemjo/randomart) with functionality strictly to text. 
