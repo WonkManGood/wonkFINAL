@@ -1,6 +1,5 @@
 <details>
-  <summary>Spoiler warning</summary>
-  ```javascript
+  <summary>Personal Introduction</summary>
     hi, im wonkmanbad (wonkmangood on git). im a dude in North USA who flunked college twice and can barely concept basic
     maths. i originally went for a degree related to photography and was later diagnosed with a rare eye disorder that hindered
     my ability to really pursue that. i went again a few years later for a general degree in computer science but once again,
@@ -10,7 +9,6 @@
     when i dropped interest in this class and finished it. and im glad to say, i more or less finished it.
 
     nonetheless, heres my final project! hope you enjoy and give me many A+'s.
-  ```
 </details>
 
 # **wonkCIPHER**: mimic of randomart for text
