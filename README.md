@@ -1,5 +1,6 @@
 <details>
   <summary>Personal Introduction</summary>
+  
     hi, im wonkmanbad (wonkmangood on git). im a dude in North USA who flunked college twice and can barely concept basic
     maths. i originally went for a degree related to photography and was later diagnosed with a rare eye disorder that hindered
     my ability to really pursue that. i went again a few years later for a general degree in computer science but once again,
