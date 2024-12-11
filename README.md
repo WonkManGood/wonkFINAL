@@ -16,4 +16,6 @@
 #### **Video Demo**:  <URL HERE>
 #### **Description**:
 wonkCIPHER is a clone of [randomart](https://github.com/ansemjo/randomart) with functionality 
-strictly to text with more interactibility; offering terminal outputs, random gen, etc. 
+strictly to text-inputs with more interactibility; offering terminal outputs, random gen, etc.
+
+While yes, it is not a rather *efficient* way of means to cipher data, but more so a proof of concept. While tested rigioursly, I am sure certain inputs or interactions with this program are less than effecient.
