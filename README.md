@@ -25,4 +25,17 @@ While yes, it is not a rather *efficient* way of means to cipher data, but more 
 
 ***
 
+Functions and their decriptions are as follows:
 
+#### **open_cipher():**
+The 'core' function needed for nearly all other functions. open_cipher() uses the csv package to open the related file in this repository called 'dictionary.csv' as the 'cipher key.' Subsequentually opening it as a dictionary within a list.
+
+#### **main():**
+The initial function. It prompts a user to enter a choice via number menu. Entering a single character number listed beforehand in the terminal will call the function related to their choice. If an incorrect input is entered, it simple recalls main().
+
+
+#### **encrypt() and random():**
+Both these functions use the same guts to do what they do. encrypt() asks the user for an input anywhere from 1 - 25 characters; else raises errors. open_cipher() is hardcoded into these functions for better interfacibility with pytest. After referencing the cipher to the input, I wrote a ~50ish line block that takes the translated length and outputs the cipher in a multiline format with a bit of styling; rather close to randomart. While yes, it could've been shorter and more simple; but the damn thing took me a near week to conceptualize and write. Throughout this entire project, there's lots of evidence of oversights and 'small brain' moments. I apologize. Nonetheless, upon translating, both functions return the value thats printed upon completetion. random() does the same thing with the same code but with random imported and randomint() used with a range of 1, 50. (1 inputed text == 2 cipher text, thus where 50 comes from. 25*2)
+
+#### **decrypt():**
+For user accesibility, I was unable to figure a way to pytest this function.
