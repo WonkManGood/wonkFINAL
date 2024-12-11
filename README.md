@@ -18,4 +18,6 @@
 wonkCIPHER is a clone of [randomart](https://github.com/ansemjo/randomart) with functionality 
 strictly to text-inputs with more interactibility; offering terminal outputs, random gen, etc.
 
-While yes, it is not a rather *efficient* way of means to cipher data, but more so a proof of concept. While tested rigioursly, I am sure certain inputs or interactions with this program are less than effecient.
+While yes, it is not a rather *efficient* way of means to cipher data, but more so a proof of concept. While tested rigioursly, I am sure certain inputs or interactions with this program are less than effecient. wonkCIPHER is a collection of the knowledge I've gained in cs50 edX's Python Course and my own personal research.
+
+<div style="page-break-after: always"></div>
