@@ -11,28 +11,55 @@ def open_cipher():
     return cipher
 
 def main():
+    clear()
     wonkCIPHER = open_cipher()
 
 
 # /// Prompts user for usage of program and returns function's results.
     print('''
-    wonkCIPHER: -- 0.1
-    a simple visual cipher - inspired by randomart in recent ssh builds
+    │  wonkCIPHER: -- 0.1
+    │  a simple visual cipher - inspired by randomart in recent ssh builds
 
 
     Encrypt String:    0
     Decrypt String:    1
     Generate Random:   2
+
+    Print valid character: 9
     ''')
     
     choice = input("Choice (0-2): ")
     match choice:
         case '0':
+            clear()
             print(encrypt(input("Enter string: ")))
         case '1':
-            decrypt()
+            output = decrypt()
+            clear()
+            print(f'''
+│
+│   {output}
+│
+
+                ''')
         case '2':
+            clear()
             print(random())
+        case 'frog':
+            clear()
+            print('''
+  @..@
+ (----)     # /// :sunglasses:
+( >__< )
+^^ ~~ ^^
+''')
+        case '9':
+            valid_characters = []
+            for row in wonkCIPHER:
+                valid_characters.append(row['input'])
+            print(valid_characters)
+        case _:
+            main()
 
 
 def encrypt(i):
@@ -131,7 +158,7 @@ a line is empty, simply press enter.
                 if ''.join(temp) == row['output']: output.append(row['input'])
             temp = []
     if len(''.join(output)) != (len(lines) / 2): raise ValueError("Incorrect characters found. Re-enter cipher.")
-    print(''.join(output))
+    return(''.join(output))
 
 
 
@@ -154,7 +181,7 @@ def random():
         output.append(f'│  '+ i + (difference * ' ') + '  │\n')
         for _ in range(4):
             output.append(f'│' + (' ' * (box_length + difference)) + '│\n')
-        output.append(f'└' + ('─' * (box_length + difference) + '┘\n'))#                                  } there was probably a better way to do this, but my brain couldnt figure it without more packages
+        output.append(f'└' + ('─' * (box_length + difference) + '┘\n'))
     elif 10 < len(i) <= 20:
         difference = (20 - len(i))
         output.append(f'│  ' + i[0:10] + '  │\n')
