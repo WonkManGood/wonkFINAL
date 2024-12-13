@@ -56,8 +56,6 @@ For user accessibility, I was unable to figure a way to pytest this function cor
 clear() simply runs a terminal clearing command depending on the OS.
 
 ** **
-** **
-** **
 
 Enjoy, and thanks for all the fish.
 -WonkManBad(Good)(W)
